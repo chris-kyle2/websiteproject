@@ -14,7 +14,7 @@ export const NavigationLink = ({ children, to }) => {
       to={to}
       className={({ isActive }) =>
         isActive
-          ? 'bg-yellow-300 hover:bg-yellow-400'
+          ? 'bg-pink-300 hover:bg-pink-400'
           : 'bg-white hover:bg-yellow-100'
       }
     >
