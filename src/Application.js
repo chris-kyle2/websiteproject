@@ -13,7 +13,7 @@ function Application() {
         <Navigation>
           <NavigationLink to="/">Home</NavigationLink>
           <NavigationLink to="/notes/Linux">Linux</NavigationLink>
-          <NavigationLink to="/notes/zombie">Zombie Ipsum</NavigationLink>
+          <NavigationLink to="/notes/Security Considerations">Security Considerations</NavigationLink>
           <NavigationLink to="/notes/cupcake">Cupcake Ipsum</NavigationLink>
           <NavigationLink to="/notes/cheese">Cheese Ipsum</NavigationLink>
           <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
