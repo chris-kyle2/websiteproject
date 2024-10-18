@@ -11,8 +11,6 @@ function Application() {
       </h1>
       <div className="grid grid-cols-12 grid-rows-1 gap-4 h-full">
         <Navigation>
-          <NavigationLink to="/">Home</NavigationLink>
-          {/* Updated Links for Each Linux Lesson */}
           <NavigationLink to="/notes/The_Call_to_Security: Fortifying OpenSSH Against Intruders">Fortifying OpenSSH Against Intruders</NavigationLink>
           <NavigationLink to="/notes/Guarding_the_Gates: Securing the GRUB Bootloader">Securing the GRUB Bootloader</NavigationLink>
           <NavigationLink to="/notes/Dharma_of_Defense: Enforcing Strong Password Policies">Enforcing Strong Password Policies</NavigationLink>
