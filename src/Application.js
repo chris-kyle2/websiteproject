@@ -1,3 +1,4 @@
+// Application.js
 import { Routes, Route } from 'react-router-dom';
 import { Navigation, NavigationLink } from './Navigation';
 import { Page } from './Page';
@@ -12,36 +13,37 @@ function Application() {
         <Navigation>
           <NavigationLink to="/">Home</NavigationLink>
           {/* Updated Links for Each Linux Lesson */}
-          <NavigationLink to="/notes/Securing_OpenSSH">Securing OpenSSH Server</NavigationLink>
-          <NavigationLink to="/notes/Securing_GRUB">Securing the GRUB Boot Loader</NavigationLink>
-          <NavigationLink to="/notes/Password_Policy">Enforcing Password Policy in Linux</NavigationLink>
-          <NavigationLink to="/notes/User_Accounts">Securing and Managing User Accounts</NavigationLink>
-          <NavigationLink to="/notes/Sudo_Management">Managing Administrative Access with sudo</NavigationLink>
-          <NavigationLink to="/notes/Fork_Bomb">Fork Bomb Attack and Mitigation</NavigationLink>
-          <NavigationLink to="/notes/Password_Cracking">Password Security Audits & Cracking Techniques</NavigationLink>
-          <NavigationLink to="/notes/John_the_Ripper">Cracking Passwords with John the Ripper</NavigationLink>
-          <NavigationLink to="/notes/File_Integrity">File Integrity Monitoring with AIDE</NavigationLink>
-          <NavigationLink to="/notes/Rootkits">Understanding Rootkits and Scanning for Them</NavigationLink>
-          <NavigationLink to="/notes/ClamAV">Using ClamAV for Antivirus on Linux</NavigationLink>
-          <NavigationLink to="/notes/Disk_Encryption">Encrypting Disks Using dm-crypt and LUKS</NavigationLink>
-          <NavigationLink to="/notes/LUKS_Key_File">Unlocking LUKS Encrypted Drives with a Key File</NavigationLink>
-          <NavigationLink to="/notes/GPG_Encryption">Encrypting Files with GPG</NavigationLink>
-          <NavigationLink to="/notes/EncryptPad">Encrypting Text Files with EncryptPad</NavigationLink>
-          <NavigationLink to="/notes/Steganography">Steganography Basics</NavigationLink>
-          <NavigationLink to="/notes/Steghide">Steghide and Advanced Steganography</NavigationLink>
-          <NavigationLink to="/notes/Nmap">Nmap (Network Mapper) Detailed Notes</NavigationLink>
-          <NavigationLink to="/notes/Advanced_Nmap">Advanced Nmap Features</NavigationLink>
-          <NavigationLink to="/notes/Iptables">Understanding iptables and Netfilter</NavigationLink>
-          <NavigationLink to="/notes/Iptables_Usage">Iptables Command and Usage</NavigationLink>
-          <NavigationLink to="/notes/Iptables_Rules">Writing iptables Rules & Creating Scripts</NavigationLink>
-          <NavigationLink to="/notes/IP_Tables_Policy">IP Tables Policy & Firewall State</NavigationLink>
-          <NavigationLink to="/notes/IP_Matches">Matching IPs with iptables</NavigationLink>
-          <NavigationLink to="/notes/Port_Filtering">Filtering Traffic by TCP/UDP Ports</NavigationLink>
-          <NavigationLink to="/notes/Stateful_Firewalls">Stateful Firewalls Overview</NavigationLink>
-          <NavigationLink to="/notes/MAC_Address_Filtering">MAC Address Filtering with iptables</NavigationLink>
-          <NavigationLink to="/notes/Service_Access_Time">Controlling Service Access by Date/Time</NavigationLink>
-          <NavigationLink to="/notes/Iptables_Accept_Drop">Understanding Accept/Drop in iptables</NavigationLink>
-          <NavigationLink to="/notes/Iptables_Logging">Logging with iptables</NavigationLink>
+          <NavigationLink to="/notes/The_Call_to_Security: Fortifying OpenSSH Against Intruders">Fortifying OpenSSH Against Intruders</NavigationLink>
+          <NavigationLink to="/notes/Guarding_the_Gates: Securing the GRUB Bootloader">Securing the GRUB Bootloader</NavigationLink>
+          <NavigationLink to="/notes/Dharma_of_Defense: Enforcing Strong Password Policies">Enforcing Strong Password Policies</NavigationLink>
+          <NavigationLink to="/notes/The_Account_of_Karma: Managing User Accounts Effectively">Managing User Accounts Effectively</NavigationLink>
+          <NavigationLink to="/notes/Commanding_the_Power: Wisely Using Sudo Privileges">Wisely Using Sudo Privileges</NavigationLink>
+          <NavigationLink to="/notes/The_Chaos_of_the_Fork: Mitigating Fork Bombs">Mitigating Fork Bombs</NavigationLink>
+          <NavigationLink to="/notes/The_Test_of_Strength: Auditing Password Resilience">Auditing Password Resilience</NavigationLink>
+          <NavigationLink to="/notes/The_Siege_of_the_Fortress: Strengthening Password Security">Strengthening Password Security</NavigationLink>
+          <NavigationLink to="/notes/The_Vigil_of_Integrity: Setting Up AIDE for Monitoring">Setting Up AIDE for Monitoring</NavigationLink>
+          <NavigationLink to="/notes/The_Hidden_Enemy: Detecting Rootkits">Detecting Rootkits</NavigationLink>
+          <NavigationLink to="/notes/The_Sword_of_Purity: Utilizing ClamAV for Malware Protection">Utilizing ClamAV for Malware Protection</NavigationLink>
+          <NavigationLink to="/notes/The_Shield_of_Encryption: Implementing Disk Encryption">Implementing Disk Encryption</NavigationLink>
+          <NavigationLink to="/notes/The_Key_to_the_Hidden_Realm: Managing Encryption Keys">Managing Encryption Keys</NavigationLink>
+          <NavigationLink to="/notes/The_Scroll_of_Secrets: Using GPG for File Encryption">Using GPG for File Encryption</NavigationLink>
+          <NavigationLink to="/notes/The_Guarded_Word: Securing Text with EncryptPad">Securing Text with EncryptPad</NavigationLink>
+          <NavigationLink to="/notes/The_Art_of_Concealment: Mastering Steganography Techniques">Mastering Steganography Techniques</NavigationLink>
+          <NavigationLink to="/notes/The_Veil_of_Secrecy: Exploring Steghide for Hidden Data">Exploring Steghide for Hidden Data</NavigationLink>
+          <NavigationLink to="/notes/The_All_Seeing_Eye: Scanning Networks with Nmap">Scanning Networks with Nmap</NavigationLink>
+          <NavigationLink to="/notes/Beyond_the_Horizon: Advanced Features of Nmap">Advanced Features of Nmap</NavigationLink>
+          <NavigationLink to="/notes/The_Barrier_of_Defense: Understanding iptables and Netfilter">Understanding iptables and Netfilter</NavigationLink>
+          <NavigationLink to="/notes/The_Command_of_Protection: Wielding iptables Commands">Wielding iptables Commands</NavigationLink>
+          <NavigationLink to="/notes/The_Craft_of_the_Warrior: Writing Effective iptables Rules">Writing Effective iptables Rules</NavigationLink>
+          <NavigationLink to="/notes/The_Path_of_Control: Defining iptables Policies">Defining iptables Policies</NavigationLink>
+          <NavigationLink to="/notes/The_Cleansing_Fire: Flushing iptables for Fresh Configurations">Flushing iptables for Fresh Configurations</NavigationLink>
+          <NavigationLink to="/notes/The_Art_of_Precision: Filtering Traffic by IP Addresses">Filtering Traffic by IP Addresses</NavigationLink>
+          <NavigationLink to="/notes/The_Ports_of_Battle: Securing Digital Entry Points">Securing Digital Entry Points</NavigationLink>
+          <NavigationLink to="/notes/The_Heart_of_the_Shield: The Importance of Stateful Firewalls">The Importance of Stateful Firewalls</NavigationLink>
+          <NavigationLink to="/notes/The_Defensive_Wall: Setting Up Stateful Firewall Rules">Setting Up Stateful Firewall Rules</NavigationLink>
+          <NavigationLink to="/notes/The_Mark_of_Identity: Matching Packets by MAC Address">Matching Packets by MAC Address</NavigationLink>
+          <NavigationLink to="/notes/The_Keeper_of_Time: Controlling Access by Date and Time">Controlling Access by Date and Time</NavigationLink>
+          <NavigationLink to="/notes/The_Path_of_Action: Understanding ACCEPT and DROP Targets in iptables">Understanding ACCEPT and DROP Targets in iptables</NavigationLink>
         </Navigation>
 
         <section className="col-span-9 p-4">
