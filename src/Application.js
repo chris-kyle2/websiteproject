@@ -50,7 +50,7 @@ function Application() {
           <Routes>
             {/* Dynamic Page Loading */}
             <Route path="/notes/:id" element={<Page />} />
-            <Route path="/" element={<p>Select a Linux lesson to start your journey.</p>} />
+            <Route path="/" element={<p>Kickstart your journey with me, Adarsh Pandey, a Cloud Engineer Trainee with a strong foundation in cloud computing and DevOps. I hold a Master's degree in Mathematics and Computing from IIT Dhanbad and an advanced certification in Cloud Computing from IIT Roorkee. I specialize in building scalable cloud solutions using AWS services like EC2, S3, Lambda, and RDS. My experience includes container orchestration with Docker and Kubernetes, automation with Terraform and Ansible, and implementing CI/CD pipelines using Jenkins, ArgoCD, and GitHub Actions. I've also deployed microservices and managed end-to-end DevOps pipelines, ensuring high availability and performance for web applications.</p>} />
           </Routes>
         </section>
       </div>
